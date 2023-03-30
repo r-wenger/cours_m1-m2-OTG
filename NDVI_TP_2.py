@@ -3,23 +3,22 @@ from random import randint
 import numpy as np
 import time
 import os
-import matplotlib.pyplot as plt
 
-import gdal
+import osgeo.gdal as gdal
 import osgeo.ogr as ogr
 import osgeo.osr as osr
 from osgeo.gdalconst import *
 
 #Chemin vers le dossier de l'image S2
-path_sentinel_folder = './SENTINEL2A_20200723-103741-124_L2A_T32ULU_C_V2-2'
+path_sentinel_folder = './SENTINEL2B_20190724-103744-210_L2A_T32ULU_C_V2-2'
 
 #Chemin vers la bande du rouge
-dataset_band_red = gdal.Open(os.path.join(path_sentinel_folder, 'SENTINEL2A_20200723-103741-124_L2A_T32ULU_C_V2-2_FRE_B4.tif'))
+dataset_band_red = gdal.Open(os.path.join(path_sentinel_folder, 'SENTINEL2B_20190724-103744-210_L2A_T32ULU_C_V2-2_FRE_B4.tif'))
 #Lire la bande 1 contenue dans le dataset, convertir en tableau et caster en float
 array_img_red = dataset_band_red.GetRasterBand(1).ReadAsArray().astype(float)
 
 #Chemin vers la bande du PIR
-dataset_band_pir = gdal.Open(os.path.join(path_sentinel_folder, 'SENTINEL2A_20200723-103741-124_L2A_T32ULU_C_V2-2_FRE_B8.tif'))
+dataset_band_pir = gdal.Open(os.path.join(path_sentinel_folder, 'SENTINEL2B_20190724-103744-210_L2A_T32ULU_C_V2-2_FRE_B8.tif'))
 array_img_pir = dataset_band_pir.GetRasterBand(1).ReadAsArray().astype(float)
 
 output = './ndvi.tif'
@@ -42,8 +41,8 @@ dst_ds.SetGeoTransform(geo_transform)
 dst_ds.GetRasterBand(1).WriteArray(ndvi)
 
 #Sinon on peut aussi remplacer les 0 dans le pir et le rouge par des 1
-array_img_pir = np.where(array_img_pir == 0, 1, array_img_pir)
+'''array_img_pir = np.where(array_img_pir == 0, 1, array_img_pir)
 array_img_red = np.where(array_img_red == 0, 1, array_img_red)
 #et calculer le NDVI ensuite :
-ndvi = (array_img_pir - array_img_red)/(array_img_pir + array_img_red)
+ndvi = (array_img_pir - array_img_red)/(array_img_pir + array_img_red)'''
 #normalement, plus de divisions par 0 :-)
