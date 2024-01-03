@@ -25,4 +25,4 @@ Le dépôt est organisé en trois dossiers principaux, chacun correspondant à u
 - **Dossier:** `Traitements_images_niv1`
 - **Description:** Aborde des techniques avancées de traitement d'images avec QGIS et ESA SNAP, y compris la classification pixel et OBIA.
 - **Contenu:** TDs sur QGIS et ESA SNAP, classification d'images, approches OBIA.
-- **[Accéder aux ressources](https://github.com/r-wenger/cours_m1-OTG/tree/main/Traitements_images_niv2)**
+- **[Accéder aux ressources](https://github.com/r-wenger/cours_m1-OTG/tree/main/Traitements_images_niv1)**
