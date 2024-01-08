@@ -6,7 +6,7 @@ Bienvenue sur le dépôt GitHub dédié aux cours que je dispense dans le cadre 
 
 Le dépôt est organisé en trois dossiers principaux, chacun correspondant à un cours spécifique. Vous trouverez ci-dessous un aperçu de chaque cours ainsi que les liens vers les ressources associées.
 
-### 1. Intelligence Artificielle en Géosciences (Master 2 OTG/Ingés 3A EOST)
+### 1. Intelligence Artificielle en Géosciences (Master 2 OTG-GDT/Ingés 3A EOST)
 
 - **Dossier:** `IA_geosciences_M2`
 - **Description:** Le CM présente les principaux concepts du deep learning, en allant du perceptron vers les réseaux de neuronnes convolutionnels multicouches. Le TD couvre les principes de base du deep learning appliqués aux images aériennes et satellitaires, en mettant l'accent sur la segmentation sémantique pour la classification de l'occupation des sols. Utilisation du jeu de données Vaihingen dans le cadre de ce TD.
