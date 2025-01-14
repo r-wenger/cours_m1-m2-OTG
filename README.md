@@ -1,28 +1,28 @@
-# Cours en Master Observation de la Terre et Géomatique
+# Master's Course in Earth Observation and Geomatics
 
-Bienvenue sur le dépôt GitHub dédié aux cours que je dispense dans le cadre du Master Observation de la Terre et Géomatique. Ce dépôt contient des ressources pédagogiques, des notebooks, et des exemples pratiques pour les étudiants en Master 1 et Master 2 OTG. 
+Welcome to the GitHub repository dedicated to the courses I teach as part of the Master's program in Earth Observation and Geomatics. This repository contains educational resources, notebooks, and practical examples for both Master 1 and Master 2 OTG students.
 
-## Contenu du Dépôt
+## Repository Content
 
-Le dépôt est organisé en trois dossiers principaux, chacun correspondant à un cours spécifique. Vous trouverez ci-dessous un aperçu de chaque cours ainsi que les liens vers les ressources associées.
+The repository is organized into three main folders, each corresponding to a specific course. Below is an overview of each course along with links to the associated resources.
 
-### 1. Intelligence Artificielle en Géosciences (Master 2 OTG-GDT/Ingés 3A EOST)
+### 1. Artificial Intelligence in Geosciences (Master 2 OTG-GDT/Ingés 3A EOST)
 
-- **Dossier:** `IA_geosciences_M2`
-- **Description:** Le CM présente les principaux concepts du deep learning, en allant du perceptron vers les réseaux de neuronnes convolutionnels multicouches. Le TD couvre les principes de base du deep learning appliqués aux images aériennes et satellitaires, en mettant l'accent sur la segmentation sémantique pour la classification de l'occupation des sols. Utilisation du jeu de données Vaihingen dans le cadre de ce TD.
-- **Contenu:** Diapositives des CM, notebooks de TD et CM, exemples de segmentation sémantique, méthodologies pour réseaux de neurones.
-- **[Accéder aux ressources](https://github.com/r-wenger/cours_m1-m2-OTG/blob/main/IA_geosciences_M2)**
+- **Folder:** `IA_geosciences_M2`
+- **Description:** The lecture introduces key deep learning concepts, starting from the perceptron to multilayer convolutional neural networks. The practical session covers the basics of deep learning applied to aerial and satellite imagery, focusing on semantic segmentation for land cover classification. The Vaihingen dataset is used for practical exercises.
+- **Content:** Lecture slides, notebooks for both lectures and practicals, examples of semantic segmentation, and methodologies for neural networks.
+- **[Access the resources](https://github.com/r-wenger/cours_m1-m2-OTG/blob/main/IA_geosciences_M2)**
 
-### 2. Programmation Niveau 2 (Master 1 OTG)
+### 2. Programming Level 2 (Master 1 OTG)
 
-- **Dossier:** `Programmation_niv2`
-- **Description:** Ce cours se concentre sur le traitement d'images satellites en utilisant Python. Il couvre des bibliothèques telles que GDAL, Numpy, OrfeoToolbox, xarray, et STAC, et introduit les concepts de gestion de paquets avec Anaconda.
-- **Contenu:** TDs sur le traitement d'images, gestion de paquets, manipulation de gros volumes de données.
-- **[Accéder aux ressources](https://github.com/r-wenger/cours_m1-OTG/tree/main/Programmation_niv2)**
+- **Folder:** `Programmation_niv2`
+- **Description:** This course focuses on satellite image processing using Python. It covers libraries such as GDAL, Numpy, OrfeoToolbox, xarray, and STAC, while introducing package management concepts using Anaconda.
+- **Content:** Practical sessions on image processing, package management, and handling large datasets.
+- **[Access the resources](https://github.com/r-wenger/cours_m1-OTG/tree/main/Programmation_niv2)**
 
-### 3. Traitement d'Images Niveau 2 (Master 1 OTG)
+### 3. Image Processing Level 2 (Master 1 OTG)
 
-- **Dossier:** `Traitements_images_niv1`
-- **Description:** Aborde des techniques avancées de traitement d'images avec QGIS et ESA SNAP, y compris la classification pixel et OBIA.
-- **Contenu:** TDs sur QGIS et ESA SNAP, classification d'images, approches OBIA.
-- **[Accéder aux ressources](https://github.com/r-wenger/cours_m1-OTG/tree/main/Traitements_images_niv1)**
+- **Folder:** `Traitements_images_niv1`
+- **Description:** Covers advanced image processing techniques using QGIS and ESA SNAP, including pixel-based and OBIA classification approaches.
+- **Content:** Practical sessions using QGIS and ESA SNAP, image classification, and OBIA approaches.
+- **[Access the resources](https://github.com/r-wenger/cours_m1-OTG/tree/main/Traitements_images_niv1)**
